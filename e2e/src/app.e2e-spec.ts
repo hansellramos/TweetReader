@@ -1,14 +1,21 @@
 import { AppPage } from './app.po';
 
-describe('workspace-project App', () => {
+describe('e2e Test', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display default title', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to TweetsReader!');
+    expect(page.getParagraphText()).toEqual('#nowPlaying in San Francisco');
+  });
+  it('should display default description', () => {
+    page.navigateTo();
+    expect(page.getDescription()).toEqual(
+      'This page show #nowPlaying tweets in San Francisco ' +
+      'that contain a YouTube link. It also allows you to post a nowPlaying tweet via YouTube link'
+    );
   });
 });
