@@ -6,10 +6,10 @@ export const environment = {
   production: false,
   apis: {
     twitter: {
-      account: '',
-      user: '',
-      pwd: '',
-      key: ''
+      consumer_key: '',
+      consumer_secret: '',
+      token: '',
+      token_secret: ''
     }
   }
 };
