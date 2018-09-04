@@ -22,4 +22,10 @@ describe('HeaderFormComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should have default hashtag value as #nowPlaying', () => {
+    expect(component.search.hashtag).toEqual('nowPlaying');
+  });
+  it('should have default city value as San Francisco', () => {
+    expect(component.search.city).toEqual('San Francisco');
+  });
 });
