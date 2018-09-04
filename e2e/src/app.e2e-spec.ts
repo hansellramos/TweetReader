@@ -7,9 +7,13 @@ describe('e2e Test', () => {
     page = new AppPage();
   });
 
-  it('should display default title', () => {
+  it('should display title', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('#nowPlaying in San Francisco');
+    expect(page.getTitleText()).toEqual('Tweets Reader');
+  });
+  it('should display default subtitle', () => {
+    page.navigateTo();
+    expect(page.getSubtitleText()).toEqual('#nowPlaying in San Francisco');
   });
   it('should display default description', () => {
     page.navigateTo();

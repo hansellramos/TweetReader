@@ -1,10 +1,12 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {HeaderFormComponent} from './components/header-form/header-form.component';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        HeaderFormComponent,
       ],
     }).compileComponents();
   }));
@@ -16,6 +18,6 @@ describe('AppComponent', () => {
   it(`should have as title 'TweetsReader'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('TweetsReader');
+    expect(app.title).toEqual('Tweets Reader');
   }));
 });
