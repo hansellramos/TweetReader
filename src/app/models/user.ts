@@ -1,7 +1,22 @@
 export class User {
+  /**
+   * Twitter id of user
+   */
   id: number;
+
+  /**
+   * Twitter username of user
+   */
   username: string;
+
+  /**
+   * Twitter display name of user
+   */
   name: string;
+
+  /**
+   * Twitter profile image url resource
+   */
   image: string;
 
   constructor(id: number, username: string, name: string, image: string) {
@@ -11,6 +26,11 @@ export class User {
     this.image = image;
   }
 
+  /**
+   * Returns User object from json source
+   * @param jsonUser
+   * @return User
+   */
   static fromTwitterJson(jsonUser: JSON): User {
     return new User(
       jsonUser['id']

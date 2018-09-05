@@ -6,8 +6,10 @@ import { mockTwitterFactory } from '../models/mock/tweet-content.data.mock';
 })
 export class TwitterService {
 
-  constructor() { }
-
+  /**
+   * Used to call twitter service
+   * @param query Query parameters to search
+   */
   search(query: string) {
     return mockTwitterFactory();
   }

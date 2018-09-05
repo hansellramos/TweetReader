@@ -9,6 +9,10 @@ import {TwitterResultsService} from './services/twitter-results.service';
 })
 export class AppComponent {
   title = 'Tweets Reader';
+
+  /**
+   * Results of twitter search service from another component or service
+   */
   results: Array<TweetContent>;
 
   constructor(
