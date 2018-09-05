@@ -3,6 +3,7 @@ import { AppComponent } from './app.component';
 import { HeaderFormComponent } from './components/header-form/header-form.component';
 import { TweetFormComponent } from './components/tweet-form/tweet-form.component';
 import { FormsModule } from '@angular/forms';
+import {TweetResultComponent} from './components/tweet-result/tweet-result.component';
 describe('AppComponent', () => {
 
   let fixture: ComponentFixture<AppComponent>;
@@ -13,7 +14,8 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         HeaderFormComponent,
-        TweetFormComponent
+        TweetFormComponent,
+        TweetResultComponent
       ],
       imports: [
         FormsModule

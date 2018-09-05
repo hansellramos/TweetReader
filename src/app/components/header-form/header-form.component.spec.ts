@@ -37,6 +37,6 @@ describe('HeaderFormComponent', () => {
     expect(component.search.city).toEqual('San Francisco');
   });
   it(`should call twitter service`, async(() => {
-    expect(twitterServiceSearchSpy).toHaveBeenCalledWith('(youtube.com or youtu.be)', 'nowPlaying');
+    expect(twitterServiceSearchSpy).toHaveBeenCalledWith('nowPlaying AND (youtube.com or youtu.be)');
   }));
 });
