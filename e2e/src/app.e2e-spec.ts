@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('e2e Test', () => {
+describe('e2e Tests', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -8,6 +8,9 @@ describe('e2e Test', () => {
     page.navigateTo();
   });
 
+  /**
+   * App Component Tests
+   */
   it('should display title', () => {
     expect(page.getTitleText()).toEqual('Tweets Reader');
   });
@@ -20,6 +23,10 @@ describe('e2e Test', () => {
       'that contain a YouTube link. It also allows you to post a nowPlaying tweet via YouTube link'
     );
   });
+
+  /**
+   * Tweet Form Component tests
+   */
   it('should display tweet form', () => {
     expect(page.getTweetForm().isPresent()).toBeTruthy();
   });
@@ -100,6 +107,16 @@ describe('e2e Test', () => {
     expect(tweetLinkWidgetElement.getAttribute('href')).toEqual(
       'https://twitter.com/intent/tweet?text=Hello%20world%20youtube.com/testing&hashtags=nowPlaying'
     );
+  });
+
+  /**
+   * Tweet Results Tests
+   */
+  it('should display tweet results form', () => {
+    expect(page.getTweetResultWidget().isPresent()).toBeTruthy();
+  });
+  it('should display 5 tweet results widgets', () => {
+    expect(page.getAllTweetResults().count()).toEqual(5);
   });
 
 });

@@ -88,4 +88,20 @@ export class AppPage {
   getTweetFormTweetLinkWidgetText() {
     return element(by.css('app-root app-tweet-form a.tweet-link span')).getText();
   }
+
+  /**
+   * Get app-tweet-result component
+   * @return app-tweet-result element
+   */
+  getTweetResultWidget() {
+    return element(by.css('app-root app-tweet-result'));
+  }
+
+  /**
+   * Get all app-tweet-result components
+   * @return All app-tweet-result components
+   */
+  getAllTweetResults() {
+    return element.all(by.css('app-root app-tweet-result'));
+  }
 }

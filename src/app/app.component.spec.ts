@@ -1,9 +1,13 @@
-import { TestBed, async } from '@angular/core/testing';
+import {TestBed, async, ComponentFixture} from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import {HeaderFormComponent} from './components/header-form/header-form.component';
-import {TweetFormComponent} from './components/tweet-form/tweet-form.component';
-import {FormsModule} from '@angular/forms';
+import { HeaderFormComponent } from './components/header-form/header-form.component';
+import { TweetFormComponent } from './components/tweet-form/tweet-form.component';
+import { FormsModule } from '@angular/forms';
 describe('AppComponent', () => {
+
+  let fixture: ComponentFixture<AppComponent>;
+  let component: AppComponent;
+
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
@@ -15,15 +19,14 @@ describe('AppComponent', () => {
         FormsModule
       ]
     }).compileComponents();
+
+    fixture = TestBed.createComponent(AppComponent);
+    component = fixture.debugElement.componentInstance;
   }));
   it('should create the app', async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app).toBeTruthy();
+    expect(component).toBeTruthy();
   }));
   it(`should have as title 'Tweets Reader'`, async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('Tweets Reader');
+    expect(component.title).toEqual('Tweets Reader');
   }));
 });

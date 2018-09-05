@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {TweetContent} from './models/tweet-content';
+import {TwitterResultsService} from './services/twitter-results.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Tweets Reader';
+  results: Array<TweetContent>;
+
+  constructor(
+    private twitterResultsService: TwitterResultsService
+  ) {
+    this.results = new Array<TweetContent>();
+    this.twitterResultsService.twitterResultsAnnounced$.subscribe(
+      results => {
+        this.results = results;
+      }
+    );
+  }
 }
