@@ -10,7 +10,7 @@ export class AppPage {
   }
 
   /**
-   * @description Get text of title
+   * @description Get comment of title
    * @return Text of title
    */
   getTitleText() {
@@ -18,7 +18,7 @@ export class AppPage {
   }
 
   /**
-   * @description Get text of subtitle
+   * @description Get comment of subtitle
    * @return Text of title
    */
   getSubtitleText() {
@@ -26,7 +26,7 @@ export class AppPage {
   }
 
   /**
-   * @description Get text of description
+   * @description Get comment of description
    * @return Text of description
    */
   getDescription() {
@@ -81,4 +81,11 @@ export class AppPage {
     return element(by.css('app-root app-tweet-form a.tweet-link'));
   }
 
+  /**
+   * @description Get app-tweet-form tweet link widget comment of
+   * @return Text of app-tweet-form tweet link widget
+   */
+  getTweetFormTweetLinkWidgetText() {
+    return element(by.css('app-root app-tweet-form a.tweet-link span')).getText();
+  }
 }

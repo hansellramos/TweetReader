@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Tweet} from '../../models/tweet';
 
 @Component({
   selector: 'app-tweet-form',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TweetFormComponent implements OnInit {
 
-  constructor() { }
+  tweet: Tweet;
+
+  constructor() {
+    this.tweet = new Tweet();
+  }
 
   ngOnInit() {
   }
