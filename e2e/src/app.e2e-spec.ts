@@ -36,13 +36,13 @@ describe('e2e Tests', () => {
     const videoUrlWidgetElement = page.getTweetFormVideoUrlWidget();
     expect(videoUrlWidgetElement.isPresent()).toBeTruthy();
   });
-  it('tweet form should display video url placeholder as "youtube.com/"', () => {
+  it('tweet form should display video url placeholder as "Video URL:"', () => {
     const videoUrlWidgetElement = page.getTweetFormVideoUrlWidget();
-    expect(videoUrlWidgetElement.getAttribute('placeholder')).toEqual('youtube.com/');
+    expect(videoUrlWidgetElement.getAttribute('placeholder')).toEqual('Video URL:');
   });
-  it('tweet form should display video url widget label', () => {
-    const videoUrlWidgetElementLabel = page.getTweetFormVideoUrlWidgetLabel();
-    expect(videoUrlWidgetElementLabel.isPresent()).toBeTruthy();
+  it('tweet form video url widget should display default value as youtube.com/', () => {
+    const videoUrlWidgetElement = page.getTweetFormVideoUrlWidget();
+    expect(videoUrlWidgetElement.getAttribute('value')).toEqual('youtube.com/');
   });
   it('tweet form video url widget label should be equal to "Video URL:"', () => {
     const videoUrlWidgetElementLabel = page.getTweetFormVideoUrlWidgetLabel();
@@ -72,16 +72,17 @@ describe('e2e Tests', () => {
     expect(page.getTweetFormTweetLinkWidgetText()).toEqual('Tweet to #nowPlaying');
   });
   it('tweet form tweet link button default href value should be ' +
-    'https://twitter.com/intent/tweet?text=&hashtags=nowPlaying', () => {
+    'https://twitter.com/intent/tweet?text=yotube.com/&hashtags=nowPlaying', () => {
     const tweetLinkWidgetElement = page.getTweetFormTweetLinkWidget();
     expect(tweetLinkWidgetElement.getAttribute('href')).toEqual(
-      'https://twitter.com/intent/tweet?text=&hashtags=nowPlaying'
+      'https://twitter.com/intent/tweet?text=youtube.com/&hashtags=nowPlaying'
     );
   });
   it('tweet form tweet link button default href value should be ' +
     'https://twitter.com/intent/tweet?text=youtube.com/testing&hashtags=nowPlaying ' +
     'when change video url value', () => {
     const videoUrlWidgetElement = page.getTweetFormVideoUrlWidget();
+    videoUrlWidgetElement.clear();
     videoUrlWidgetElement.sendKeys('youtube.com/testing');
     const tweetLinkWidgetElement = page.getTweetFormTweetLinkWidget();
     expect(tweetLinkWidgetElement.getAttribute('href')).toEqual(
@@ -91,6 +92,9 @@ describe('e2e Tests', () => {
   it('tweet form tweet link button default href value should be ' +
     'https://twitter.com/intent/tweet?text=Hello%20World&hashtags=nowPlaying ' +
     'when change comment value', () => {
+    const videoUrlWidgetElement = page.getTweetFormVideoUrlWidget();
+    videoUrlWidgetElement.clear();
+    // videoUrlWidgetElement.sendKeys('youtube.com/testing');
     const commentWidgetElement = page.getTweetFormCommentWidget();
     commentWidgetElement.sendKeys('Hello world');
     const tweetLinkWidgetElement = page.getTweetFormTweetLinkWidget();
@@ -104,6 +108,7 @@ describe('e2e Tests', () => {
     const commentWidgetElement = page.getTweetFormCommentWidget();
     commentWidgetElement.sendKeys('Hello world');
     const videoUrlWidgetElement = page.getTweetFormVideoUrlWidget();
+    videoUrlWidgetElement.clear();
     videoUrlWidgetElement.sendKeys('youtube.com/testing');
     const tweetLinkWidgetElement = page.getTweetFormTweetLinkWidget();
     expect(tweetLinkWidgetElement.getAttribute('href')).toEqual(

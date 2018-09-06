@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { TweetContentComponent } from './tweet-content.component';
 import * as _ from 'underscore';
 import {RelativeDatePipe} from '../../pipes/relative-date.pipe';
+import {MatCardModule, MatFormFieldModule} from '@angular/material';
 
 describe('TweetContentComponent', () => {
   let component: TweetContentComponent;
@@ -13,6 +14,10 @@ describe('TweetContentComponent', () => {
       declarations: [
         TweetContentComponent,
         RelativeDatePipe,
+      ],
+      imports: [
+        MatCardModule,
+        MatFormFieldModule
       ]
     })
     .compileComponents();
