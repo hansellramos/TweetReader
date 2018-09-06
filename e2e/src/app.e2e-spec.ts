@@ -1,13 +1,18 @@
 import { AppPage } from './app.po';
+import {browser} from 'protractor';
 
-describe('e2e Test', () => {
+describe('e2e Tests', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
     page.navigateTo();
   });
-
+  browser.ignoreSynchronization = true;
+  browser.waitForAngularEnabled(false);
+  /**
+   * App Component Tests
+   */
   it('should display title', () => {
     expect(page.getTitleText()).toEqual('Tweets Reader');
   });
@@ -20,6 +25,10 @@ describe('e2e Test', () => {
       'that contain a YouTube link. It also allows you to post a nowPlaying tweet via YouTube link'
     );
   });
+
+  /**
+   * Tweet Form Component tests
+   */
   it('should display tweet form', () => {
     expect(page.getTweetForm().isPresent()).toBeTruthy();
   });
@@ -102,4 +111,81 @@ describe('e2e Test', () => {
     );
   });
 
+  /**
+   * Tweet Results Tests
+   */
+  it('should display 5 tweet results widgets', () => {
+    expect(page.getAllTweetResults().count()).toEqual(5);
+  });
+  it('tweet result should display a title with content', () => {
+    browser.sleep(5000); // wait for youtube videos load
+    const element = page.getTweetResultWidgetTitle();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getText()).not.toEqual('');
+  });
+  it('tweet result should display a video widget', () => {
+    browser.sleep(5000); // wait for youtube videos load
+    const element = page.getTweetResultVideoWidget();
+    expect(element.isPresent()).toBeTruthy();
+  });
+  it('tweet result video widget should come from youtube', () => {
+    browser.sleep(5000); // wait for youtube videos load
+    const element = page.getTweetResultVideoWidget();
+    expect(element.getAttribute('src')).toMatch('^(https?\\:\\/\\/)?(www\\.)?(youtube\\.com|youtu\\.?be)\\/.+$');
+  });
+  it('tweet result should display a content widget', () => {
+    const element = page.getTweetResultContentWidget();
+    expect(element.isPresent()).toBeTruthy();
+  });
+  it('tweet result content should display a twitter logo', () => {
+    const element = page.getTweetResultContentTwitterLogo();
+    expect(element.isPresent()).toBeTruthy();
+  });
+  it('tweet result content should display a user profile image with source', () => {
+    const element = page.getTweetResultContentUserProfilePicture();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getAttribute('src')).toContain('https://pbs.twimg.com/profile_images/');
+  });
+  it('tweet result content should display username', () => {
+    const element = page.getTweetResultContentUsernameWidget();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getText()).not.toEqual('');
+    expect(element.getAttribute('target')).toEqual('_blank');
+  });
+  it('tweet result content should display screen name', () => {
+    const element = page.getTweetResultContentUserScreenNameWidget();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getText()).not.toEqual('');
+  });
+  it('tweet result content should display follow button with Follow label', () => {
+    const element = page.getTweetResultContentUserFollowButtonLink();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getText()).toContain('Follow');
+    expect(element.getAttribute('target')).toEqual('_blank');
+  });
+  it('tweet result content should display tweet text with content', () => {
+    const element = page.getTweetResultContentTweet();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getText()).not.toEqual('');
+  });
+  it('tweet result content should display reply button', () => {
+    const element = page.getTweetResultContentUserReplyButtonLink();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getAttribute('target')).toEqual('_blank');
+  });
+  it('tweet result content should display retweet button', () => {
+    const element = page.getTweetResultContentUserRetweetButtonLink();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getAttribute('target')).toEqual('_blank');
+  });
+  it('tweet result content should display like button', () => {
+    const element = page.getTweetResultContentUserLikeButtonLink();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getAttribute('target')).toEqual('_blank');
+  });
+  it('tweet result content should display tweet date with content', () => {
+    const element = page.getTweetResultContentUserDateWidget();
+    expect(element.isPresent()).toBeTruthy();
+    expect(element.getText()).not.toEqual('');
+  });
 });

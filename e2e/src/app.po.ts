@@ -88,4 +88,124 @@ export class AppPage {
   getTweetFormTweetLinkWidgetText() {
     return element(by.css('app-root app-tweet-form a.tweet-link span')).getText();
   }
+
+  /**
+   * Get app-tweet-result component
+   * @return app-tweet-result element
+   */
+  getTweetResultWidget() {
+    return element(by.css('app-root app-tweet-result'));
+  }
+
+  /**
+   * Get all app-tweet-result components
+   * @return All app-tweet-result components
+   */
+  getAllTweetResults() {
+    return element.all(by.css('app-root app-tweet-result'));
+  }
+
+  /**
+   * Get app-tweet-result title
+   * @return app-tweet-result title element
+   */
+  getTweetResultWidgetTitle() {
+    return element(by.css('app-root app-tweet-result div.result-title h2'));
+  }
+
+  /**
+   * Get app-tweet-result video
+   * @return app-tweet-result video element
+   */
+  getTweetResultVideoWidget() {
+    return element(by.css('app-root app-tweet-result div.result-video iframe.video-player'));
+  }
+
+  /**
+   * Get app-tweet-result content
+   * @return app-tweet-result content element
+   */
+  getTweetResultContentWidget() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content'));
+  }
+
+  /**
+   * Get app-tweet-result content twitter logo
+   * @return app-tweet-result content twitter logo element
+   */
+  getTweetResultContentTwitterLogo() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content img.twitter-logo'));
+  }
+
+  /**
+   * Get app-tweet-result content user profile image
+   * @return app-tweet-result content user profile image element
+   */
+  getTweetResultContentUserProfilePicture() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile div.user-profile-image img'));
+  }
+
+  /**
+   * Get app-tweet-result content username
+   * @return app-tweet-result content username element
+   */
+  getTweetResultContentUsernameWidget() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile div.username a.username-link'));
+  }
+
+  /**
+   * Get app-tweet-result content username
+   * @return app-tweet-result content username element
+   */
+  getTweetResultContentUserScreenNameWidget() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile div.screen-name span'));
+  }
+
+  /**
+   * Get app-tweet-result content user follow link
+   * @return app-tweet-result content follow link element
+   */
+  getTweetResultContentUserFollowButtonLink() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile a.follow-link'));
+  }
+
+  /**
+   * Get app-tweet-result content user retweet link
+   * @return app-tweet-result content retweet link element
+   */
+  getTweetResultContentUserRetweetButtonLink() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.buttons a.retweet-link'));
+  }
+
+  /**
+   * Get app-tweet-result content user like link
+   * @return app-tweet-result content like link element
+   */
+  getTweetResultContentUserLikeButtonLink() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div a.like-link'));
+  }
+
+  /**
+   * Get app-tweet-result content user reply link
+   * @return app-tweet-result content reply link element
+   */
+  getTweetResultContentUserReplyButtonLink() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div a.reply-link'));
+  }
+
+  /**
+   * Get app-tweet-result content user date widget
+   * @return app-tweet-result content date widget
+   */
+  getTweetResultContentUserDateWidget() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.date span'));
+  }
+
+  /**
+   * Get app-tweet-result content tweet text
+   * @return app-tweet-result content tweet text
+   */
+  getTweetResultContentTweet() {
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.tweet-text h3'));
+  }
 }
