@@ -17,6 +17,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Libraries
 
  - Underscore, used to access easily object properties, used on unit test
+ - RelativeDate pipe, used to transform dates to relative date string, author: https://gist.github.com/JonCatmull/e00afb1c96298a4e386ea1b5d091702a
  
 # Author
  - Hansel Ramos
