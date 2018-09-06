@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apis: {
+    twitter: {
+      consumer_key: '',
+      consumer_secret: '',
+      token: '',
+      token_secret: ''
+    }
+  }
 };
 
 /*
