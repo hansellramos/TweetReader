@@ -118,7 +118,7 @@ export class AppPage {
    * @return app-tweet-result video element
    */
   getTweetResultVideoWidget() {
-    return element(by.css('app-root app-tweet-result div.result-video iframe'));
+    return element(by.css('app-root app-tweet-result div.result-video iframe.video-player'));
   }
 
   /**
@@ -142,7 +142,7 @@ export class AppPage {
    * @return app-tweet-result content user profile image element
    */
   getTweetResultContentUserProfilePicture() {
-    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile-image img'));
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile div.user-profile-image img'));
   }
 
   /**
@@ -150,7 +150,7 @@ export class AppPage {
    * @return app-tweet-result content username element
    */
   getTweetResultContentUsernameWidget() {
-    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.username span'));
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile div.username a.username-link'));
   }
 
   /**
@@ -158,7 +158,7 @@ export class AppPage {
    * @return app-tweet-result content username element
    */
   getTweetResultContentUserScreenNameWidget() {
-    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.screen-name span'));
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile div.screen-name span'));
   }
 
   /**
@@ -166,7 +166,7 @@ export class AppPage {
    * @return app-tweet-result content follow link element
    */
   getTweetResultContentUserFollowButtonLink() {
-    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div a.follow-link'));
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.user-profile a.follow-link'));
   }
 
   /**
@@ -174,7 +174,7 @@ export class AppPage {
    * @return app-tweet-result content retweet link element
    */
   getTweetResultContentUserRetweetButtonLink() {
-    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div a.retweet-link'));
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.buttons a.retweet-link'));
   }
 
   /**
@@ -198,7 +198,7 @@ export class AppPage {
    * @return app-tweet-result content date widget
    */
   getTweetResultContentUserDateWidget() {
-    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div span.date'));
+    return element(by.css('app-root app-tweet-result div.result-content app-tweet-content div.date span'));
   }
 
   /**

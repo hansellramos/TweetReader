@@ -10,6 +10,7 @@ import { TweetContentComponent } from './components/tweet-content/tweet-content.
 
 import { TwitterService } from './services/twitter.service';
 import {TwitterResultsService} from './services/twitter-results.service';
+import { RelativeDatePipe } from './pipes/relative-date.pipe';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {TwitterResultsService} from './services/twitter-results.service';
     HeaderFormComponent,
     TweetFormComponent,
     TweetResultComponent,
-    TweetContentComponent
+    TweetContentComponent,
+    RelativeDatePipe
   ],
   imports: [
     BrowserModule,

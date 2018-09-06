@@ -34,8 +34,8 @@ export class User {
   static fromTwitterJson(jsonUser: JSON): User {
     return new User(
       jsonUser['id']
-      , jsonUser['name']
       , jsonUser['screen_name']
+      , jsonUser['name']
       , jsonUser['profile_image_url_https']
     );
   }

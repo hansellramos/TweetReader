@@ -2,6 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TweetContentComponent } from './tweet-content.component';
 import * as _ from 'underscore';
+import {RelativeDatePipe} from '../../pipes/relative-date.pipe';
 
 describe('TweetContentComponent', () => {
   let component: TweetContentComponent;
@@ -9,7 +10,10 @@ describe('TweetContentComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TweetContentComponent ]
+      declarations: [
+        TweetContentComponent,
+        RelativeDatePipe,
+      ]
     })
     .compileComponents();
   }));
@@ -23,7 +27,4 @@ describe('TweetContentComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-  it('should have tweetResult attribute', async(() => {
-    expect(_.has(component, 'tweetContent')).toBeTruthy();
-  }));
 });

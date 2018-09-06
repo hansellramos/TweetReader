@@ -1,4 +1,5 @@
 import { AppPage } from './app.po';
+import {browser} from 'protractor';
 
 describe('e2e Tests', () => {
   let page: AppPage;
@@ -7,7 +8,8 @@ describe('e2e Tests', () => {
     page = new AppPage();
     page.navigateTo();
   });
-
+  browser.ignoreSynchronization = true;
+  browser.waitForAngularEnabled(false);
   /**
    * App Component Tests
    */
@@ -116,15 +118,18 @@ describe('e2e Tests', () => {
     expect(page.getAllTweetResults().count()).toEqual(5);
   });
   it('tweet result should display a title with content', () => {
+    browser.sleep(5000); // wait for youtube videos load
     const element = page.getTweetResultWidgetTitle();
     expect(element.isPresent()).toBeTruthy();
     expect(element.getText()).not.toEqual('');
   });
   it('tweet result should display a video widget', () => {
+    browser.sleep(5000); // wait for youtube videos load
     const element = page.getTweetResultVideoWidget();
     expect(element.isPresent()).toBeTruthy();
   });
   it('tweet result video widget should come from youtube', () => {
+    browser.sleep(5000); // wait for youtube videos load
     const element = page.getTweetResultVideoWidget();
     expect(element.getAttribute('src')).toMatch('^(https?\\:\\/\\/)?(www\\.)?(youtube\\.com|youtu\\.?be)\\/.+$');
   });
@@ -145,6 +150,7 @@ describe('e2e Tests', () => {
     const element = page.getTweetResultContentUsernameWidget();
     expect(element.isPresent()).toBeTruthy();
     expect(element.getText()).not.toEqual('');
+    expect(element.getAttribute('target')).toEqual('_blank');
   });
   it('tweet result content should display screen name', () => {
     const element = page.getTweetResultContentUserScreenNameWidget();
@@ -155,6 +161,7 @@ describe('e2e Tests', () => {
     const element = page.getTweetResultContentUserFollowButtonLink();
     expect(element.isPresent()).toBeTruthy();
     expect(element.getText()).toContain('Follow');
+    expect(element.getAttribute('target')).toEqual('_blank');
   });
   it('tweet result content should display tweet text with content', () => {
     const element = page.getTweetResultContentTweet();
@@ -164,14 +171,17 @@ describe('e2e Tests', () => {
   it('tweet result content should display reply button', () => {
     const element = page.getTweetResultContentUserReplyButtonLink();
     expect(element.isPresent()).toBeTruthy();
+    expect(element.getAttribute('target')).toEqual('_blank');
   });
   it('tweet result content should display retweet button', () => {
     const element = page.getTweetResultContentUserRetweetButtonLink();
     expect(element.isPresent()).toBeTruthy();
+    expect(element.getAttribute('target')).toEqual('_blank');
   });
   it('tweet result content should display like button', () => {
     const element = page.getTweetResultContentUserLikeButtonLink();
     expect(element.isPresent()).toBeTruthy();
+    expect(element.getAttribute('target')).toEqual('_blank');
   });
   it('tweet result content should display tweet date with content', () => {
     const element = page.getTweetResultContentUserDateWidget();

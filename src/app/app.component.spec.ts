@@ -4,6 +4,8 @@ import { HeaderFormComponent } from './components/header-form/header-form.compon
 import { TweetFormComponent } from './components/tweet-form/tweet-form.component';
 import { FormsModule } from '@angular/forms';
 import {TweetResultComponent} from './components/tweet-result/tweet-result.component';
+import {TweetContentComponent} from './components/tweet-content/tweet-content.component';
+import {RelativeDatePipe} from './pipes/relative-date.pipe';
 describe('AppComponent', () => {
 
   let fixture: ComponentFixture<AppComponent>;
@@ -15,7 +17,9 @@ describe('AppComponent', () => {
         AppComponent,
         HeaderFormComponent,
         TweetFormComponent,
-        TweetResultComponent
+        TweetResultComponent,
+        TweetContentComponent,
+        RelativeDatePipe,
       ],
       imports: [
         FormsModule

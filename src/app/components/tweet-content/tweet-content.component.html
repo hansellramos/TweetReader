@@ -1,3 +1,28 @@
-<p>
-  tweet-content works!
-</p>
+<div *ngIf="content">
+  <div *ngIf="content.user" class="user-profile">
+    <div class="user-profile-image">
+      <img *ngIf="content.user.image" [src]="content.user.image" title="User Profile Picture">
+      <div class="screen-name">
+        <span>{{content.user.name}}</span>
+      </div>
+      <div class="username">
+        <a class="username-link" target="_blank" href="https://twitter.com/{{content.user.username}}">@{{content.user.username}}</a>
+      </div>
+      <a class="follow-link" href="https://twitter.com/intent/user?screen_name={{content.user.username}}" target="_blank">
+        Follow @{{content.user.username}}
+      </a>
+    </div>
+  </div>
+  <div class="tweet-text">
+    <h3>{{content.text}}</h3>
+  </div>
+  <div class="buttons">
+    <a class="reply-link" target="_blank" href="https://twitter.com/intent/tweet?in_reply_to={{content.id}}">Reply</a>
+    <a class="retweet-link" target="_blank" href="https://twitter.com/intent/retweet?tweet_id={{content.id}}">Retweet</a>
+    <a class="like-link" target="_blank" href="https://twitter.com/intent/like?tweet_id={{content.id}}">Like</a>
+  </div>
+  <div class="date">
+    <span>{{content.createdAt | relativeDate}}</span>
+  </div>
+  <img class="twitter-logo" src="assets/twitter-logo.png" title="Twitter Logo">
+</div>

@@ -1,45 +1,65 @@
 {
   "statuses": [
     {
-      "created_at": "Tue Sep 04 16:42:52 +0000 2018",
-      "id": 1037018166805843970,
-      "id_str": "1037018166805843970",
-      "text": "mood 🚬💀 #NowPlaying #np #OnAirNow  Bob Moses - Like It Or Not https://t.co/a6slQn0Vyc",
+      "created_at": "Thu Sep 06 16:50:26 +0000 2018",
+      "id": 1037744847468290049,
+      "id_str": "1037744847468290049",
+      "text": "RT @AwesomeMetal: ♫ #NowPlaying #03 - Love Us Or Hate Us - ♫ https://t.co/rxU9mWD2AV #AMB https://t.co/LQhnVCyosn #metalhammer #rollingston…",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
             "text": "NowPlaying",
             "indices": [
-              8,
-              19
-            ]
-          },
-          {
-            "text": "np",
-            "indices": [
               20,
-              23
+              31
             ]
           },
           {
-            "text": "OnAirNow",
+            "text": "AMB",
             "indices": [
-              24,
-              33
+              85,
+              89
+            ]
+          },
+          {
+            "text": "metalhammer",
+            "indices": [
+              114,
+              126
             ]
           }
         ],
         "symbols": [],
-        "user_mentions": [],
+        "user_mentions": [
+          {
+            "screen_name": "AwesomeMetal",
+            "name": "Awesome Metal Bands",
+            "id": 298198313,
+            "id_str": "298198313",
+            "indices": [
+              3,
+              16
+            ]
+          }
+        ],
         "urls": [
           {
-            "url": "https://t.co/a6slQn0Vyc",
-            "expanded_url": "https://youtu.be/tU5U1yc86HE",
-            "display_url": "youtu.be/tU5U1yc86HE",
+            "url": "https://t.co/rxU9mWD2AV",
+            "expanded_url": "http://www.ambhome.xyz",
+            "display_url": "ambhome.xyz",
             "indices": [
-              62,
-              85
+              61,
+              84
+            ]
+          },
+          {
+            "url": "https://t.co/LQhnVCyosn",
+            "expanded_url": "https://youtu.be/eOB1-waVgKU",
+            "display_url": "youtu.be/eOB1-waVgKU",
+            "indices": [
+              90,
+              113
             ]
           }
         ]
@@ -48,30 +68,30 @@
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "source": "<a href=\"https://roundteam.co\" rel=\"nofollow\">RoundTeam</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 109433852,
-        "id_str": "109433852",
-        "name": "Aykut",
-        "screen_name": "Livekuti",
-        "location": "Bursa",
-        "description": "Televizyondaki çocuk - Radyo televizyon üst kurulunda (bip) montajı yapıyor",
-        "url": "https://t.co/yX6B0JOcnX",
+        "id": 74838297,
+        "id_str": "74838297",
+        "name": "brubble®",
+        "screen_name": "brubble_",
+        "location": "worldwideweb",
+        "description": "#brubble for RT //\nmusic aggregator // WE LOVE ALL COLOURS",
+        "url": "http://t.co/QkPpDtD5Em",
         "entities": {
           "url": {
             "urls": [
               {
-                "url": "https://t.co/yX6B0JOcnX",
-                "expanded_url": "http://instagram.com/kutilive/",
-                "display_url": "instagram.com/kutilive/",
+                "url": "http://t.co/QkPpDtD5Em",
+                "expanded_url": "http://www.brubble.de",
+                "display_url": "brubble.de",
                 "indices": [
                   0,
-                  23
+                  22
                 ]
               }
             ]
@@ -81,36 +101,36 @@
           }
         },
         "protected": false,
-        "followers_count": 566,
-        "friends_count": 354,
-        "listed_count": 4,
-        "created_at": "Fri Jan 29 01:34:47 +0000 2010",
-        "favourites_count": 9533,
+        "followers_count": 20881,
+        "friends_count": 13185,
+        "listed_count": 642,
+        "created_at": "Wed Sep 16 21:07:29 +0000 2009",
+        "favourites_count": 264,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 10180,
-        "lang": "tr",
+        "statuses_count": 466471,
+        "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "000000",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1030903566855294981/T_0-k51Q_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1030903566855294981/T_0-k51Q_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/109433852/1530138126",
-        "profile_link_color": "000000",
+        "profile_background_color": "FF6699",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/649596000097726464/uBC9SoY0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/649596000097726464/uBC9SoY0_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/74838297/1443691336",
+        "profile_link_color": "781335",
         "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "000000",
-        "profile_text_color": "000000",
-        "profile_use_background_image": false,
-        "has_extended_profile": true,
+        "profile_sidebar_fill_color": "E5507E",
+        "profile_text_color": "362720",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
         "default_profile": false,
         "default_profile_image": false,
-        "following": false,
+        "following": true,
         "follow_request_sent": false,
         "notifications": false,
         "translator_type": "none"
@@ -119,8 +139,184 @@
       "coordinates": null,
       "place": null,
       "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Sep 06 16:46:04 +0000 2018",
+        "id": 1037743749319864322,
+        "id_str": "1037743749319864322",
+        "text": "♫ #NowPlaying #03 - Love Us Or Hate Us - ♫ https://t.co/rxU9mWD2AV #AMB https://t.co/LQhnVCyosn #metalhammer #rollingstones #metal #bands #",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "NowPlaying",
+              "indices": [
+                2,
+                13
+              ]
+            },
+            {
+              "text": "AMB",
+              "indices": [
+                67,
+                71
+              ]
+            },
+            {
+              "text": "metalhammer",
+              "indices": [
+                96,
+                108
+              ]
+            },
+            {
+              "text": "rollingstones",
+              "indices": [
+                109,
+                123
+              ]
+            },
+            {
+              "text": "metal",
+              "indices": [
+                124,
+                130
+              ]
+            },
+            {
+              "text": "bands",
+              "indices": [
+                131,
+                137
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/rxU9mWD2AV",
+              "expanded_url": "http://www.ambhome.xyz",
+              "display_url": "ambhome.xyz",
+              "indices": [
+                43,
+                66
+              ]
+            },
+            {
+              "url": "https://t.co/LQhnVCyosn",
+              "expanded_url": "https://youtu.be/eOB1-waVgKU",
+              "display_url": "youtu.be/eOB1-waVgKU",
+              "indices": [
+                72,
+                95
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://wavestreaming.com\" rel=\"nofollow\">Wavepanel</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 298198313,
+          "id_str": "298198313",
+          "name": "Awesome Metal Bands",
+          "screen_name": "AwesomeMetal",
+          "location": "Enter Chat / Promote Bands",
+          "description": "The #1 Metal Community & Radio Station, for Awesomeness: https://t.co/TNPI5GQ2JD https://t.co/U1bc82lYVH",
+          "url": "https://t.co/hIfOuh8KoQ",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/hIfOuh8KoQ",
+                  "expanded_url": "http://www.awesomemetalbands.com/metalchat.php",
+                  "display_url": "awesomemetalbands.com/metalchat.php",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                {
+                  "url": "https://t.co/TNPI5GQ2JD",
+                  "expanded_url": "http://awesomemetalbands.com",
+                  "display_url": "awesomemetalbands.com",
+                  "indices": [
+                    57,
+                    80
+                  ]
+                },
+                {
+                  "url": "https://t.co/U1bc82lYVH",
+                  "expanded_url": "http://ambradio.xyz",
+                  "display_url": "ambradio.xyz",
+                  "indices": [
+                    81,
+                    104
+                  ]
+                }
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 2959,
+          "friends_count": 3135,
+          "listed_count": 53,
+          "created_at": "Fri May 13 22:01:09 +0000 2011",
+          "favourites_count": 2124,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 150209,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": true,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/569199050142912512/07R6LgMk_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/569199050142912512/07R6LgMk_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/298198313/1487880777",
+          "profile_link_color": "BA0606",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
       "is_quote_status": false,
-      "retweet_count": 0,
+      "retweet_count": 1,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
@@ -484,90 +680,136 @@
       "lang": "en"
     },
     {
-      "created_at": "Tue Sep 04 11:56:26 +0000 2018",
-      "id": 1036946085544165376,
-      "id_str": "1036946085544165376",
-      "text": "RT @messer4s: Foo Fighters - My Hero (Live) 🖤\n\nTruth or consequence, say it aloud\nUse that evidence, race it around\n\n🌟-1-🌟\n#NowPlaying #Fri…",
+      "created_at": "Thu Sep 06 16:50:26 +0000 2018",
+      "id": 1037744847468290049,
+      "id_str": "1037744847468290049",
+      "text": "RT @AwesomeMetal: ♫ #NowPlaying #03 - Love Us Or Hate Us - ♫ https://t.co/rxU9mWD2AV #AMB https://t.co/LQhnVCyosn #metalhammer #rollingston…",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
             "text": "NowPlaying",
             "indices": [
-              123,
-              134
+              20,
+              31
+            ]
+          },
+          {
+            "text": "AMB",
+            "indices": [
+              85,
+              89
+            ]
+          },
+          {
+            "text": "metalhammer",
+            "indices": [
+              114,
+              126
             ]
           }
         ],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "messer4s",
-            "name": "messer4s",
-            "id": 136012334,
-            "id_str": "136012334",
+            "screen_name": "AwesomeMetal",
+            "name": "Awesome Metal Bands",
+            "id": 298198313,
+            "id_str": "298198313",
             "indices": [
               3,
-              12
+              16
             ]
           }
         ],
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/rxU9mWD2AV",
+            "expanded_url": "http://www.ambhome.xyz",
+            "display_url": "ambhome.xyz",
+            "indices": [
+              61,
+              84
+            ]
+          },
+          {
+            "url": "https://t.co/LQhnVCyosn",
+            "expanded_url": "https://youtu.be/eOB1-waVgKU",
+            "display_url": "youtu.be/eOB1-waVgKU",
+            "indices": [
+              90,
+              113
+            ]
+          }
+        ]
       },
       "metadata": {
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "source": "<a href=\"https://roundteam.co\" rel=\"nofollow\">RoundTeam</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 136012334,
-        "id_str": "136012334",
-        "name": "messer4s",
-        "screen_name": "messer4s",
-        "location": "",
-        "description": "",
-        "url": null,
+        "id": 74838297,
+        "id_str": "74838297",
+        "name": "brubble®",
+        "screen_name": "brubble_",
+        "location": "worldwideweb",
+        "description": "#brubble for RT //\nmusic aggregator // WE LOVE ALL COLOURS",
+        "url": "http://t.co/QkPpDtD5Em",
         "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/QkPpDtD5Em",
+                "expanded_url": "http://www.brubble.de",
+                "display_url": "brubble.de",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
           "description": {
             "urls": []
           }
         },
         "protected": false,
-        "followers_count": 1501,
-        "friends_count": 1211,
-        "listed_count": 693,
-        "created_at": "Thu Apr 22 20:08:15 +0000 2010",
-        "favourites_count": 36455,
+        "followers_count": 20881,
+        "friends_count": 13185,
+        "listed_count": 638,
+        "created_at": "Wed Sep 16 21:07:29 +0000 2009",
+        "favourites_count": 264,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 9644,
-        "lang": "de",
+        "statuses_count": 466454,
+        "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "3B94D9",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1021044368977940481/nGprdnoS_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1021044368977940481/nGprdnoS_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/136012334/1530531975",
-        "profile_link_color": "FA743E",
-        "profile_sidebar_border_color": "D3D2CF",
-        "profile_sidebar_fill_color": "E3E2DE",
-        "profile_text_color": "634047",
-        "profile_use_background_image": false,
+        "profile_background_color": "FF6699",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/649596000097726464/uBC9SoY0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/649596000097726464/uBC9SoY0_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/74838297/1443691336",
+        "profile_link_color": "781335",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "E5507E",
+        "profile_text_color": "362720",
+        "profile_use_background_image": true,
         "has_extended_profile": false,
         "default_profile": false,
         "default_profile_image": false,
-        "following": false,
+        "following": true,
         "follow_request_sent": false,
         "notifications": false,
         "translator_type": "none"
@@ -577,23 +819,75 @@
       "place": null,
       "contributors": null,
       "retweeted_status": {
-        "created_at": "Fri Feb 09 22:00:54 +0000 2018",
-        "id": 962083913572274176,
-        "id_str": "962083913572274176",
-        "text": "Foo Fighters - My Hero (Live) 🖤\n\nTruth or consequence, say it aloud\nUse that evidence, race it around\n\n🌟-1-🌟… https://t.co/drTKUbGyXv",
-        "truncated": true,
+        "created_at": "Thu Sep 06 16:46:04 +0000 2018",
+        "id": 1037743749319864322,
+        "id_str": "1037743749319864322",
+        "text": "♫ #NowPlaying #03 - Love Us Or Hate Us - ♫ https://t.co/rxU9mWD2AV #AMB https://t.co/LQhnVCyosn #metalhammer #rollingstones #metal #bands #",
+        "truncated": false,
         "entities": {
-          "hashtags": [],
+          "hashtags": [
+            {
+              "text": "NowPlaying",
+              "indices": [
+                2,
+                13
+              ]
+            },
+            {
+              "text": "AMB",
+              "indices": [
+                67,
+                71
+              ]
+            },
+            {
+              "text": "metalhammer",
+              "indices": [
+                96,
+                108
+              ]
+            },
+            {
+              "text": "rollingstones",
+              "indices": [
+                109,
+                123
+              ]
+            },
+            {
+              "text": "metal",
+              "indices": [
+                124,
+                130
+              ]
+            },
+            {
+              "text": "bands",
+              "indices": [
+                131,
+                137
+              ]
+            }
+          ],
           "symbols": [],
           "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/drTKUbGyXv",
-              "expanded_url": "https://twitter.com/i/web/status/962083913572274176",
-              "display_url": "twitter.com/i/web/status/9…",
+              "url": "https://t.co/rxU9mWD2AV",
+              "expanded_url": "http://www.ambhome.xyz",
+              "display_url": "ambhome.xyz",
               "indices": [
-                110,
-                133
+                43,
+                66
+              ]
+            },
+            {
+              "url": "https://t.co/LQhnVCyosn",
+              "expanded_url": "https://youtu.be/eOB1-waVgKU",
+              "display_url": "youtu.be/eOB1-waVgKU",
+              "indices": [
+                72,
+                95
               ]
             }
           ]
@@ -602,52 +896,84 @@
           "iso_language_code": "en",
           "result_type": "recent"
         },
-        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "source": "<a href=\"http://wavestreaming.com\" rel=\"nofollow\">Wavepanel</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-          "id": 136012334,
-          "id_str": "136012334",
-          "name": "messer4s",
-          "screen_name": "messer4s",
-          "location": "",
-          "description": "",
-          "url": null,
+          "id": 298198313,
+          "id_str": "298198313",
+          "name": "Awesome Metal Bands",
+          "screen_name": "AwesomeMetal",
+          "location": "Enter Chat / Promote Bands",
+          "description": "The #1 Metal Community & Radio Station, for Awesomeness: https://t.co/TNPI5GQ2JD https://t.co/U1bc82lYVH",
+          "url": "https://t.co/hIfOuh8KoQ",
           "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/hIfOuh8KoQ",
+                  "expanded_url": "http://www.awesomemetalbands.com/metalchat.php",
+                  "display_url": "awesomemetalbands.com/metalchat.php",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
             "description": {
-              "urls": []
+              "urls": [
+                {
+                  "url": "https://t.co/TNPI5GQ2JD",
+                  "expanded_url": "http://awesomemetalbands.com",
+                  "display_url": "awesomemetalbands.com",
+                  "indices": [
+                    57,
+                    80
+                  ]
+                },
+                {
+                  "url": "https://t.co/U1bc82lYVH",
+                  "expanded_url": "http://ambradio.xyz",
+                  "display_url": "ambradio.xyz",
+                  "indices": [
+                    81,
+                    104
+                  ]
+                }
+              ]
             }
           },
           "protected": false,
-          "followers_count": 1501,
-          "friends_count": 1211,
-          "listed_count": 693,
-          "created_at": "Thu Apr 22 20:08:15 +0000 2010",
-          "favourites_count": 36455,
+          "followers_count": 2960,
+          "friends_count": 3135,
+          "listed_count": 53,
+          "created_at": "Fri May 13 22:01:09 +0000 2011",
+          "favourites_count": 2124,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 9644,
-          "lang": "de",
+          "statuses_count": 150190,
+          "lang": "en",
           "contributors_enabled": false,
           "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "3B94D9",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1021044368977940481/nGprdnoS_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1021044368977940481/nGprdnoS_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/136012334/1530531975",
-          "profile_link_color": "FA743E",
-          "profile_sidebar_border_color": "D3D2CF",
-          "profile_sidebar_fill_color": "E3E2DE",
-          "profile_text_color": "634047",
-          "profile_use_background_image": false,
+          "is_translation_enabled": true,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/569199050142912512/07R6LgMk_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/569199050142912512/07R6LgMk_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/298198313/1487880777",
+          "profile_link_color": "BA0606",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "EFEFEF",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
           "has_extended_profile": false,
           "default_profile": false,
           "default_profile_image": false,
@@ -662,7 +988,7 @@
         "contributors": null,
         "is_quote_status": false,
         "retweet_count": 1,
-        "favorite_count": 9,
+        "favorite_count": 0,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -677,94 +1003,162 @@
       "lang": "en"
     },
     {
-      "created_at": "Tue Sep 04 08:04:47 +0000 2018",
-      "id": 1036887785645527042,
-      "id_str": "1036887785645527042",
-      "text": "RT @Music_Kitts: 🎵Are the stars out tonight\nI don't know if it's cloudy or bright\nI only have eyes for you....\n\n#NowPlaying #Kitta1ityMix\nA…",
+      "created_at": "Thu Sep 06 16:46:04 +0000 2018",
+      "id": 1037743749319864322,
+      "id_str": "1037743749319864322",
+      "text": "♫ #NowPlaying #03 - Love Us Or Hate Us - ♫ https://t.co/rxU9mWD2AV #AMB https://t.co/LQhnVCyosn #metalhammer #rollingstones #metal #bands #",
       "truncated": false,
       "entities": {
         "hashtags": [
           {
             "text": "NowPlaying",
             "indices": [
-              112,
+              2,
+              13
+            ]
+          },
+          {
+            "text": "AMB",
+            "indices": [
+              67,
+              71
+            ]
+          },
+          {
+            "text": "metalhammer",
+            "indices": [
+              96,
+              108
+            ]
+          },
+          {
+            "text": "rollingstones",
+            "indices": [
+              109,
               123
             ]
           },
           {
-            "text": "Kitta1ityMix",
+            "text": "metal",
             "indices": [
               124,
+              130
+            ]
+          },
+          {
+            "text": "bands",
+            "indices": [
+              131,
               137
             ]
           }
         ],
         "symbols": [],
-        "user_mentions": [
+        "user_mentions": [],
+        "urls": [
           {
-            "screen_name": "Music_Kitts",
-            "name": "💙🌻🎧Music Kitten🎵🌻💙",
-            "id": 2512556786,
-            "id_str": "2512556786",
+            "url": "https://t.co/rxU9mWD2AV",
+            "expanded_url": "http://www.ambhome.xyz",
+            "display_url": "ambhome.xyz",
             "indices": [
-              3,
-              15
+              43,
+              66
+            ]
+          },
+          {
+            "url": "https://t.co/LQhnVCyosn",
+            "expanded_url": "https://youtu.be/eOB1-waVgKU",
+            "display_url": "youtu.be/eOB1-waVgKU",
+            "indices": [
+              72,
+              95
             ]
           }
-        ],
-        "urls": []
+        ]
       },
       "metadata": {
         "iso_language_code": "en",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "source": "<a href=\"http://wavestreaming.com\" rel=\"nofollow\">Wavepanel</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 196585870,
-        "id_str": "196585870",
-        "name": "Shaz (Shazzy) Wrench 🍾🥂🎸🎶🖤",
-        "screen_name": "fiftyminus2",
-        "location": "London 🇬🇧",
-        "description": "I have incurable Multiple Myeloma/bone marrow #Cancer I'm on my 6th year of #chemo attempting to stay alive for my babies miss my wizardy wizard guru x  ✨💫⭐️🌟",
-        "url": null,
+        "id": 298198313,
+        "id_str": "298198313",
+        "name": "Awesome Metal Bands",
+        "screen_name": "AwesomeMetal",
+        "location": "Enter Chat / Promote Bands",
+        "description": "The #1 Metal Community & Radio Station, for Awesomeness: https://t.co/TNPI5GQ2JD https://t.co/U1bc82lYVH",
+        "url": "https://t.co/hIfOuh8KoQ",
         "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/hIfOuh8KoQ",
+                "expanded_url": "http://www.awesomemetalbands.com/metalchat.php",
+                "display_url": "awesomemetalbands.com/metalchat.php",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
           "description": {
-            "urls": []
+            "urls": [
+              {
+                "url": "https://t.co/TNPI5GQ2JD",
+                "expanded_url": "http://awesomemetalbands.com",
+                "display_url": "awesomemetalbands.com",
+                "indices": [
+                  57,
+                  80
+                ]
+              },
+              {
+                "url": "https://t.co/U1bc82lYVH",
+                "expanded_url": "http://ambradio.xyz",
+                "display_url": "ambradio.xyz",
+                "indices": [
+                  81,
+                  104
+                ]
+              }
+            ]
           }
         },
         "protected": false,
-        "followers_count": 10694,
-        "friends_count": 4751,
-        "listed_count": 145,
-        "created_at": "Wed Sep 29 13:20:03 +0000 2010",
-        "favourites_count": 337558,
+        "followers_count": 2960,
+        "friends_count": 3135,
+        "listed_count": 53,
+        "created_at": "Fri May 13 22:01:09 +0000 2011",
+        "favourites_count": 2124,
         "utc_offset": null,
         "time_zone": null,
-        "geo_enabled": true,
+        "geo_enabled": false,
         "verified": false,
-        "statuses_count": 209791,
+        "statuses_count": 150190,
         "lang": "en",
         "contributors_enabled": false,
         "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "FF6699",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme11/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme11/bg.gif",
+        "is_translation_enabled": true,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
         "profile_background_tile": true,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/896737354614001669/AvyZQ-rF_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/896737354614001669/AvyZQ-rF_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/196585870/1516546898",
-        "profile_link_color": "B40B43",
-        "profile_sidebar_border_color": "CC3366",
-        "profile_sidebar_fill_color": "E5507E",
-        "profile_text_color": "362720",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/569199050142912512/07R6LgMk_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/569199050142912512/07R6LgMk_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/298198313/1487880777",
+        "profile_link_color": "BA0606",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "has_extended_profile": true,
+        "has_extended_profile": false,
         "default_profile": false,
         "default_profile_image": false,
         "following": false,
@@ -776,111 +1170,12 @@
       "coordinates": null,
       "place": null,
       "contributors": null,
-      "retweeted_status": {
-        "created_at": "Mon Sep 03 23:42:10 +0000 2018",
-        "id": 1036761299798122496,
-        "id_str": "1036761299798122496",
-        "text": "🎵Are the stars out tonight\nI don't know if it's cloudy or bright\nI only have eyes for you....\n\n#NowPlaying… https://t.co/0Ltu39ctOi",
-        "truncated": true,
-        "entities": {
-          "hashtags": [
-            {
-              "text": "NowPlaying",
-              "indices": [
-                95,
-                106
-              ]
-            }
-          ],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/0Ltu39ctOi",
-              "expanded_url": "https://twitter.com/i/web/status/1036761299798122496",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                108,
-                131
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "en",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 2512556786,
-          "id_str": "2512556786",
-          "name": "💙🌻🎧Music Kitten🎵🌻💙",
-          "screen_name": "Music_Kitts",
-          "location": "On an island! 🇬🇧",
-          "description": "🎧 Musical collaboration with @musica1ity 🎵#KittsMix 🎶#Kitta1ityMix 🎶#Musica1ityMix 🎶#TeamDubPistols 🎶#GoodVibes 🎶 Supports 👉🏻@TonicMusicMH 🎵 NO DMs❗️",
-          "url": null,
-          "entities": {
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 8455,
-          "friends_count": 6489,
-          "listed_count": 67,
-          "created_at": "Wed May 21 13:09:42 +0000 2014",
-          "favourites_count": 165987,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": true,
-          "verified": false,
-          "statuses_count": 163253,
-          "lang": "en-gb",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "C0DEED",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1028335302908235776/IsVfe01L_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1028335302908235776/IsVfe01L_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2512556786/1533992502",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": true,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 5,
-        "favorite_count": 25,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-      },
       "is_quote_status": false,
-      "retweet_count": 5,
+      "retweet_count": 1,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
+      "possibly_sensitive": false,
       "lang": "en"
     }
   ]

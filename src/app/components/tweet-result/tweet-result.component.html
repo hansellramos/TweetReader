@@ -1,3 +1,16 @@
-<p>
-  tweet-result works!
-</p>
+<div *ngIf="result">
+  <div class="result-title">
+    <h2 id="result-title-video-id-{{result.id}}"></h2>
+  </div>
+  <div class="result-video">
+    <input type="hidden" class="video-player-name"
+           id="name-video-id-{{result.id}}">
+    <input type="hidden" class="video-player-id"
+           id="video-id-{{result.id}}" name="video-id-{{result.id}}"
+           [value]="result.video">
+    <div class="video-player" id="player-video-id-{{result.id}}"></div>
+  </div>
+  <div class="result-content">
+    <app-tweet-content [content]="result"></app-tweet-content>
+  </div>
+</div>
