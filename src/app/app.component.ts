@@ -30,7 +30,6 @@ export class AppComponent {
   }
 
   buildVideoPlayers() {
-    debugger;
     Array.from(document.getElementsByClassName('video-player-id'))
       .forEach(element => {
         this.buildVideoPlayer({
@@ -42,8 +41,8 @@ export class AppComponent {
 
   buildVideoPlayer(options) {
     return new (<any>window).YT.Player(`player-${options.id}`, {
-      height: '40%',
-      width: '150px',
+      height: '200px',
+      width: '100%',
       videoId: options.videoId,
       playerVars: {'autoplay': 0, 'rel': 0, 'controls': 2},
       events: {

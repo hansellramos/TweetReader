@@ -11,6 +11,8 @@ import { TweetContentComponent } from './components/tweet-content/tweet-content.
 import { TwitterService } from './services/twitter.service';
 import {TwitterResultsService} from './services/twitter-results.service';
 import { RelativeDatePipe } from './pipes/relative-date.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCardModule, MatDividerModule, MatFormFieldModule, MatInputModule, MatToolbarModule} from '@angular/material';
 
 
 @NgModule({
@@ -24,7 +26,14 @@ import { RelativeDatePipe } from './pipes/relative-date.pipe';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatDividerModule,
+    MatButtonModule,
+    MatInputModule,
+    MatFormFieldModule,
   ],
   providers: [
     TwitterService,

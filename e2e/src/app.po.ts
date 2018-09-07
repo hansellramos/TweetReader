@@ -110,7 +110,7 @@ export class AppPage {
    * @return app-tweet-result title element
    */
   getTweetResultWidgetTitle() {
-    return element(by.css('app-root app-tweet-result div.result-title h2'));
+    return element(by.css('app-root app-tweet-result .result-title h2'));
   }
 
   /**

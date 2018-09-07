@@ -1,8 +1,40 @@
 img.twitter-logo {
-  width: 32px;
-  height: 32px;
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  right: 2em;
+  top: 6em;
+}
+
+.mat-card-avatar {
+  padding-right: 1em;
 }
 
 .user-profile-image img {
   border-radius: 50%;
+}
+
+.screen-name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.username a,
+.username a:link
+{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.mat-card-actions {
+  width: 75%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.date {
+  width: 25%;
+  box-sizing: border-box;
+  text-align: right;
+  display: inline-block;
 }

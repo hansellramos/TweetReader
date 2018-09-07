@@ -1,9 +1,12 @@
 <div class="tweet">
-  <label for="video-url">Video URL:</label>
-  <input type="text" id="video-url" name="video-url" placeholder="youtube.com/" [(ngModel)]="tweet.videoUrl">
-  <label for="comment">Comment:</label>
-  <input type="text" id="comment" name="comment" [(ngModel)]="tweet.comment">
-  <a class="tweet-link" target="_blank"
+  <mat-form-field class="video-url">
+    <input matInput type="text" id="video-url" name="video-url" placeholder="Video URL:"
+           [(ngModel)]="tweet.videoUrl">
+  </mat-form-field>
+  <mat-form-field class="comment">
+    <input matInput type="text" id="comment" name="comment" placeholder="Comment:" [(ngModel)]="tweet.comment">
+  </mat-form-field>
+  <a mat-button class="tweet-link" target="_blank"
      href="https://twitter.com/intent/tweet?text={{tweet.content}}&hashtags=nowPlaying">
     <span>Tweet to #nowPlaying</span>
   </a>
