@@ -10,6 +10,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+Unit testing result
+
+![Unit Test Result](https://res.cloudinary.com/sqrz-cdn/image/upload/v1536295261/Screenshot_from_2018-09-06_23-38-45.png)
+
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
@@ -136,3 +140,8 @@ Executed 33 of 33 specs SUCCESS in 39 secs.
 # Author
  - Hansel Ramos
    hansell.ramos@gmail.com
+   
+## Notes
+  Twiter results comes from mock data retrieved previusly from twitter, but is static data and this results are general, not from an specific location
+  
+  I need one more day to do that, I really appreciate the oportunity, is not complete, but my mayor focus was on app quality implementing unit test and automation test
