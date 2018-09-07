@@ -4,6 +4,8 @@ import { TweetFormComponent } from './tweet-form.component';
 import { Tweet } from '../../models/tweet';
 import { FormsModule } from '@angular/forms';
 import {AppComponent} from '../../app.component';
+import {MatFormFieldModule, MatInputModule} from '@angular/material';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 describe('TweetFormComponent', () => {
   let component: TweetFormComponent;
@@ -12,7 +14,12 @@ describe('TweetFormComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ TweetFormComponent ],
-      imports: [ FormsModule ]
+      imports: [
+        FormsModule,
+        BrowserAnimationsModule,
+        MatFormFieldModule,
+        MatInputModule
+      ]
     })
     .compileComponents();
   }));

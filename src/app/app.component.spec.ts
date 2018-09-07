@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import {TweetResultComponent} from './components/tweet-result/tweet-result.component';
 import {TweetContentComponent} from './components/tweet-content/tweet-content.component';
 import {RelativeDatePipe} from './pipes/relative-date.pipe';
+import {MatCardModule, MatDividerModule, MatFormFieldModule, MatToolbarModule} from '@angular/material';
 describe('AppComponent', () => {
 
   let fixture: ComponentFixture<AppComponent>;
@@ -22,7 +23,11 @@ describe('AppComponent', () => {
         RelativeDatePipe,
       ],
       imports: [
-        FormsModule
+        FormsModule,
+        MatToolbarModule,
+        MatCardModule,
+        MatDividerModule,
+        MatFormFieldModule
       ]
     }).compileComponents();
 

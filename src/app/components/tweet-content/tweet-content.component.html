@@ -1,26 +1,44 @@
 <div *ngIf="content">
   <div *ngIf="content.user" class="user-profile">
-    <div class="user-profile-image">
-      <img *ngIf="content.user.image" [src]="content.user.image" title="User Profile Picture">
-      <div class="screen-name">
-        <span>{{content.user.name}}</span>
-      </div>
-      <div class="username">
-        <a class="username-link" target="_blank" href="https://twitter.com/{{content.user.username}}">@{{content.user.username}}</a>
-      </div>
+      <mat-card-header>
+        <div mat-card-avatar>
+          <div class="user-profile-image">
+            <img *ngIf="content.user.image" [src]="content.user.image" title="User Profile Picture">
+          </div>
+        </div>
+        <mat-card-title>
+          <div class="screen-name">
+            <span>{{content.user.name}}</span>
+          </div>
+        </mat-card-title>
+        <mat-card-subtitle>
+          <div class="username">
+            <a class="username-link" target="_blank" href="https://twitter.com/{{content.user.username}}">@{{content.user.username}}</a>
+          </div>
+        </mat-card-subtitle>
+      </mat-card-header>
       <a class="follow-link" href="https://twitter.com/intent/user?screen_name={{content.user.username}}" target="_blank">
         Follow @{{content.user.username}}
       </a>
+  </div>
+  <mat-card-content>
+    <div class="tweet-text">
+      <h3>{{content.text}}</h3>
     </div>
-  </div>
-  <div class="tweet-text">
-    <h3>{{content.text}}</h3>
-  </div>
-  <div class="buttons">
-    <a class="reply-link" target="_blank" href="https://twitter.com/intent/tweet?in_reply_to={{content.id}}">Reply</a>
-    <a class="retweet-link" target="_blank" href="https://twitter.com/intent/retweet?tweet_id={{content.id}}">Retweet</a>
-    <a class="like-link" target="_blank" href="https://twitter.com/intent/like?tweet_id={{content.id}}">Like</a>
-  </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <div class="buttons">
+      <a mat-button class="reply-link" target="_blank" href="https://twitter.com/intent/tweet?in_reply_to={{content.id}}">
+        Reply
+      </a>
+      <a mat-button class="retweet-link" target="_blank" href="https://twitter.com/intent/retweet?tweet_id={{content.id}}">
+        Retweet
+      </a>
+      <a mat-button class="like-link" target="_blank" href="https://twitter.com/intent/like?tweet_id={{content.id}}">
+        Like
+      </a>
+    </div>
+  </mat-card-actions>
   <div class="date">
     <span>{{content.createdAt | relativeDate}}</span>
   </div>

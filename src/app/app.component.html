@@ -1,4 +1,13 @@
-<h1 class="title">{{title}}</h1>
-<app-header-form></app-header-form>
-<app-tweet-form></app-tweet-form>
-<app-tweet-result *ngFor="let result of results" [result]="result"></app-tweet-result>
+<mat-toolbar>
+  <h1 class="title">{{title}}</h1>
+</mat-toolbar>
+<mat-card>
+  <app-header-form></app-header-form>
+  <mat-card>
+    <app-tweet-form></app-tweet-form>
+  </mat-card>
+  <br />
+  <mat-divider></mat-divider>
+  <br />
+  <app-tweet-result class="result" *ngFor="let result of results" [result]="result"></app-tweet-result>
+</mat-card>

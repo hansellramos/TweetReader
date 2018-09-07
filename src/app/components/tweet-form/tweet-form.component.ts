@@ -15,6 +15,7 @@ export class TweetFormComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.tweet.videoUrl = 'youtube.com/';
   }
 
 }

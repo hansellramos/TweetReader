@@ -4,6 +4,7 @@ import { TweetResultComponent } from './tweet-result.component';
 import * as _ from 'underscore';
 import {TweetContentComponent} from '../tweet-content/tweet-content.component';
 import {RelativeDatePipe} from '../../pipes/relative-date.pipe';
+import {MatCardModule} from '@angular/material';
 
 describe('TweetResultComponent', () => {
   let component: TweetResultComponent;
@@ -15,6 +16,9 @@ describe('TweetResultComponent', () => {
         TweetResultComponent,
         TweetContentComponent,
         RelativeDatePipe
+      ],
+      imports: [
+        MatCardModule
       ]
     })
     .compileComponents();
