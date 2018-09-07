@@ -90,16 +90,13 @@ describe('e2e Tests', () => {
     );
   });
   it('tweet form tweet link button default href value should be ' +
-    'https://twitter.com/intent/tweet?text=Hello%20World&hashtags=nowPlaying ' +
+    'https://twitter.com/intent/tweet?text=Hello%20World%20youtube.com/&hashtags=nowPlaying ' +
     'when change comment value', () => {
-    const videoUrlWidgetElement = page.getTweetFormVideoUrlWidget();
-    videoUrlWidgetElement.clear();
-    // videoUrlWidgetElement.sendKeys('youtube.com/testing');
     const commentWidgetElement = page.getTweetFormCommentWidget();
     commentWidgetElement.sendKeys('Hello world');
     const tweetLinkWidgetElement = page.getTweetFormTweetLinkWidget();
     expect(tweetLinkWidgetElement.getAttribute('href')).toEqual(
-      'https://twitter.com/intent/tweet?text=Hello%20world&hashtags=nowPlaying'
+      'https://twitter.com/intent/tweet?text=Hello%20world%20youtube.com/&hashtags=nowPlaying'
     );
   });
   it('tweet form tweet link button default href value should be ' +
